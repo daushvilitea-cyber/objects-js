@@ -1,48 +1,48 @@
-// let students = ["Nika", "Ana", "Luka", "Mariam", "Nino"];
+let students = ["Nika", "Ana", "Luka", "Mariam", "Nino"];
 
-// console.log(students.length);
+console.log(students.length);
 
-// students.push("Giorgi");
-// console.log(students);
+students.push("Giorgi");
+console.log(students);
 
-// students.unshift("Salome");
-// console.log(students);
+students.unshift("Salome");
+console.log(students);
 
-// students.pop();
-// students.shift();
-// console.log(students);
+students.pop();
+students.shift();
+console.log(students);
 
-// students.sort();
-// console.log(students);
+students.sort();
+console.log(students);
 
-// let twoStudents = students.slice(2, 3);
-// console.log(twoStudents);
+let twoStudents = students.slice(2, 3);
+console.log(twoStudents);
 
-// students.splice(2, 1);
-// console.log(students);
+students.splice(2, 1);
+console.log(students);
 
-// let group = {
-//   name: "React Group",
-//   students: ["Nika", "Ana", "Giorgi"],
-// };
+let group = {
+  name: "React Group",
+  students: ["Nika", "Ana", "Giorgi"],
+};
 
-// console.log(group.students.length);
+console.log(group.students.length);
 
-// group.students.push("Mariam");
-// console.log(group.students);
+group.students.push("Mariam");
+console.log(group.students);
 
-// group.students.pop();
-// console.log(group.students);
+group.students.pop();
+console.log(group.students);
 
-// group.students.sort();
-// console.log(group.students);
+group.students.sort();
+console.log(group.students);
 
-// let groupTwo = group.students.slice(0, 2);
-// console.log(groupTwo);
+let groupTwo = group.students.slice(0, 2);
+console.log(groupTwo);
 
-// group.students.splice(1, 1);
-// group.students.push("Bacho", "Salome");
-// console.log(group.students);
+group.students.splice(1, 1);
+group.students.push("Bacho", "Salome");
+console.log(group.students);
 
 const studentsData = [
   {
